@@ -6,7 +6,7 @@ import SkeletonWrapper from './components/SkeletonWrapper'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 function App() {
-  const [data, setData] = useState<userData>({})
+  const [data, setData] = useState({} as userData)
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   useEffect(() => {
